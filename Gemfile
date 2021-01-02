@@ -7,7 +7,7 @@ ruby '2.7.2'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.4'
 # Use sqlite3 as the database for Active Record
 
-#gem 'sqlite3'
+gem 'sqlite3'
 #gem 'sqlite3', group: :development
 #gem 'pg', group: :production
 
@@ -72,18 +72,18 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 ##########################
 ##付け足したやつ
 ##########################
-group :development do
+#group :development do
 
-    gem 'sqlite3'
+#    gem 'sqlite3'
 
-end
+#end
 
 
 
-group :production do
+#group :production do
 
-    gem 'pg', '0.20.0'
+#    gem 'pg', '0.20.0'
 
-    gem 'rails_12factor'
+#    gem 'rails_12factor'
 
-end
+#end
